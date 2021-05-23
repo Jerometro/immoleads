@@ -83,3 +83,4 @@ production:
   database: immoleads_production
   username: immoleads
   password: <%= ENV['IMMOLEADS_DATABASE_PASSWORD'] %>
+  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
